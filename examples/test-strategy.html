@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" />
+
+ 
+
+    <title>AWB Test Strategy</title>
+
+ 
+
+    <meta
+
+      name="viewport"
+
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+
+    />
+
+ 
+
+    <link rel="stylesheet" href="../dist/reveal.css" />
+
+     <link rel="stylesheet" href="../dist/theme/white.css" id="theme" />
+
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+ 
+
+   <style>
+
+      .myfont {
+
+        font-family: "Source Code Pro", sans-serif;
+
+        overflow: hidden;
+
+      }
+
+    </style>
+
+  </head>
+
+ 
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 2em;">
+
+            AWB Test Strategy
+
+          </p>
+
+        </section>
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            Software Testing Pyramid
+
+          </p>
+
+          <iframe data-autoplay width="1000" height="700" src="assets/test-str.png" frameborder="0"></iframe>
+
+        </section>
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            1. Everything should be tested (as much as possible)
+
+          </p>
+
+        </section>
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            2. All tasks should have acceptance criteria (can be multiple criterias)
+
+          </p>
+
+        </section>
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            3. After the task completed QA/Dev engineer should verify task according to acceptance criteria
+
+          </p>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            4. Task life cycle
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Is functional testing required
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Do we need update / add to regression tests
+
+            </li>
+
+          </ul>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            5. Regression test strategy
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              How often should be executed
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Do we need to have automatic execution plan
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Reports
+
+            </li>
+
+          </ul>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            6. Defect management
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+           <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Tracking
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Fixing
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Verifying
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            7. Test Development (including unit tests)
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+           <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Plans
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Fixing
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Data
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            8. Test coverage
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+           <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              What should be covered
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Different test types
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            9. As result of test strategy should be created the system
+
+          </p>
+
+          <p><br /></p>
+
+          <ul>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Unit tests
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Functional tests
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Integration tests
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Regression tests
+
+            </li>
+
+            <li style="font-family: 'Roboto Slab'; font-size: 0.5em;">
+
+              Reports
+
+            </li>
+
+          </ul>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Roboto Slab'; font-size: 1em;">
+
+            Questions
+
+          </p>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Question 1: <br><br>
+
+            Is there any specific plan related to our components? <br>
+
+            GUI testing, API testing and Regression testing
+
+          </p>
+
+          <p><br /></p>
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Answer:
+
+          </p>
+
+          <ul>
+
+            <li style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+              GUI testing: Create a fully automatic set of tests (in progress) <br>
+
+              and execute them during the regression cycle.
+
+            </li>
+
+            <li style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+              API testing: At the moment we can verify API using swagger and tests created by Georgy. <br>
+
+              Later on, we can create automatic verification.
+
+            </li>
+
+            <li style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+              Regression testing: Currently we have 3 regression tests (ds.swoop, scoring pipeline and aqdq) <br>
+
+              and I'll add tests for Orbis metadata. We have to descide how often we are going to run these tests.
+
+            </li>
+
+ 
+
+          </ul>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Question 2: <br><br>
+
+            Does "regression tests" only refers to current regression tests for datascience.swoop/scoring pipeline, or is it in the more broader sense testing if current proposed system produces the same result as the previous system?
+
+          </p>
+
+          <p><br /></p>
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Answer: <br><br>
+
+            Regression tests will include existing tests for datascience.swoop/scoring/aqdq pipelines plus new Orbis UI automation for scoring and aqdg pipelines
+
+          </p>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Question 3: <br><br>
+
+            What is the plan for automatic execution - is it automatic in that e.g. it is that triggered from PR merge, or the current steps be automated?
+
+          </p>
+
+          <p><br /></p>
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Answer: <br><br>
+
+            Ideally all regression tests should be triggered automatically once pull request merged to master. As per my understanding to achieve this all existing regression tests should be slightly improved and, in that case, the most important question will be time and resources.
+
+          </p>
+
+        </section>
+
+ 
+
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Question 4: <br><br>
+
+            Are there any plans for integration testing?
+
+          </p>
+
+          <p><br /></p>
+
+          <p style="font-family: 'Ubuntu'; font-size: 0.5em;">
+
+            Answer: <br><br>
+
+            Our system is quite complex and I'm sure that integration tests are required. Probably we have to execute them manually at this development stage.
+
+          </p>
+
+        </section>
+
+ 
+
+      </div>
+
+    </div>
+
+ 
+
+    <script src="../dist/reveal.js"></script>
+
+    <script src="../plugin/highlight/highlight.js"></script>
+
+    <script>
+
+      Reveal.initialize({
+
+        center: true,
+
+        hash: true,
+
+        plugins: [RevealHighlight],
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
